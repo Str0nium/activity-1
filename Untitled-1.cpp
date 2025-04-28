@@ -18,7 +18,7 @@ public:
         return a + b;
     }
 
-    
+    // Other arithmetic functions
     int subtract(int a, int b) {
         return a - b;
     }
@@ -105,8 +105,8 @@ int main() {
             default:
                 cout << "Invalid choice. Please enter a number between 1 and 6." << endl;
         }
-        cout << endl; // Add an empty line for better readability
-    } while (true); // Keep the calculator running until manually stopped (Ctrl+C)
+        cout << endl;
+    } while (true);
 
     return 0;
 }
